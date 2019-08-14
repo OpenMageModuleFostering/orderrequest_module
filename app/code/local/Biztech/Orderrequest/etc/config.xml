@@ -10,7 +10,7 @@
 <config>
     <modules>
         <Biztech_Orderrequest>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Biztech_Orderrequest>
     </modules>
 
@@ -77,16 +77,15 @@
             </orderrequest>
         </helpers>
     </global>
-
     <admin>
         <routers>
-            <orderrequest>
-                <use>admin</use>
-                <args>
-                    <module>Biztech_Orderrequest</module>
-                    <frontName>orderrequest</frontName>
-                </args>
-            </orderrequest>
+            <adminhtml>
+                    <args>
+                    <modules>
+                        <orderrequest after="Mage_Adminhtml">Biztech_Orderrequest_Adminhtml</orderrequest>
+                        </modules>
+                    </args>
+                </adminhtml>    
         </routers>
     </admin>
 
@@ -99,7 +98,7 @@
                     <items module="orderrequest">
                         <title>Customer Order Comments</title>
                         <sort_order>0</sort_order>
-                        <action>orderrequest/adminhtml_orderrequest</action>
+                        <action>adminhtml/orderrequest</action>
                     </items>
                 </children>
             </orderrequest>
