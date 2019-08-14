@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+    <name>orderrequest_module</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Customer Order Comment Management Extension will help you get your customers&#x2019; comments/views before they shop from your store, helping you know your customers closely</summary>
+    <description>Can your customers comment on their orders prior to placing any order? It is important to understand what your customers think about your products or if they wish to comment something to improve their customer experience or for your store! &#xD;
+You can now add this facility in your Magento store by configuring Customer Order Comment Management Extension. It will add a comment box in the checkout page and order page in the customer account for the customer to have a view of the history of comments being posted by him/her for various orders placed.&#xD;
+Core Features &#xD;
+&#x27A2;	Adds Request Box&#xD;
+Admin can add order request comment box in the last step of checkout process.&#xD;
+&#x27A2;	Displays Order Comment in Two Places&#xD;
+Admin can view order comments in the form of grid listing or in order detail page as customer order request.&#xD;
+&#xD;
+&#x27A2;	Comment Visible to Customers&#xD;
+Customer can view order comment from order details page under &#x2018;my account.&#x2019;&#xD;
+&#xD;
+&#x27A2;	Adds New Comment&#xD;
+Customers can also add new request/comment from order details page under &#x2018;my account.&#x2019;&#xD;
+Users Gain&#xD;
+&#x27A2;	Happy Customers as they get opportunity to comment&#xD;
+&#x27A2;	Customers feel they are heard and important to business&#xD;
+&#x27A2;	Develops customer retention and loyalty &#xD;
+</description>
+    <notes>New Release</notes>
+    <authors><author><name>Biztech</name><user>biztechcon</user><email>sales@biztechconsultancy.com</email></author></authors>
+    <date>2014-12-26</date>
+    <time>10:02:47</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Biztech_Orderrequest.xml" hash="48b1e9bbd625368c032363c709ef78c3"/><file name="Biztech_All.xml" hash="f4c3b9c029e56da8f09d7d71336c00f7"/></dir></target><target name="magelocal"><dir name="Biztech"><dir name="Orderrequest"><dir name="Block"><dir name="Adminhtml"><dir name="Orderrequest"><file name="Grid.php" hash="0c4fe9af377aca9635a0763cda82b28a"/></dir><file name="Orderrequest.php" hash="c401f951d409bb1c1baa06bb3b548a6f"/></dir><dir name="Email"><file name="Info.php" hash="5b09822c783eb08f141c44fb4b6e319f"/></dir><dir name="Order"><file name="View.php" hash="717551e6077b59d896285b1acf7e3a39"/></dir><file name="Orderrequest.php" hash="232dd62df54fd9c52fe7e455508ffda0"/></dir><dir name="Helper"><file name="Data.php" hash="31fb96a29df5a3b28538e1daf68c6aff"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Orderrequest"><file name="Collection.php" hash="4d74f5d9563e9bffb3ca9238ed778088"/></dir><file name="Orderrequest.php" hash="8a044dce2885a970adc6981ab1bd0a1a"/></dir><file name="Observer.php" hash="ca6fc470834bbe2ed6259515ee4346fc"/><file name="Orderrequest.php" hash="59e9f773919cdaaf41a139d14e1c4d44"/><file name="Status.php" hash="59269d75640f86f8954a0522f8d9ca23"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="OrderrequestController.php" hash="b15f4d5a4d49af21f794e227f010ffcd"/></dir><file name="IndexController.php" hash="2dd5737ea5721b375a63da9384ace851"/></dir><dir name="etc"><file name="config.xml" hash="cc3f8ab9c82b72aecec38fa19c133102"/><file name="system.xml" hash="6328d96275a2920defdbddca8a5fe39b"/></dir><dir name="sql"><dir name="orderrequest_setup"><file name="mysql4-install-0.1.0.php" hash="e25d6c2b1059b87555959642acfe17ee"/></dir></dir></dir><dir name="All"><dir name="Helper"><file name="Data.php" hash="e856726fd089e7f73ca7de450b696419"/></dir><dir name="Model"><file name="All.php" hash="a9aeeb9c6d7be9cf20414f405efc878d"/><dir name="Mysql4"><dir name="All"><file name="Collection.php" hash="a1909236183d126f38e628b85bb57e81"/></dir><file name="All.php" hash="f02542393eb26eadfb9b92d901d2ac12"/></dir><dir name="Source"><dir name="Updates"><file name="Type.php" hash="fa695bf4764c2d93c7436ed54bde89ba"/></dir></dir><file name="Status.php" hash="30a6f0da7d9d45e1082da532d5f8dabc"/><file name="Update.php" hash="83ceddbab4d621545b9c7c4bccdec7c0"/></dir><dir name="etc"><file name="config.xml" hash="27e403cedb861da03753d28527d9c664"/><file name="system.xml" hash="17262087dc933d934e09ac04cafb4c51"/></dir></dir></dir><dir name="modules"><file name="Biztech_Orderrequest.xml" hash=""/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="orderrequest.xml" hash="9bf9e996a6e2086545df15219bdb9e06"/></dir><dir name="template"><dir name="orderrequest"><file name="orderrequest.phtml" hash="c98e0c0d5052909d2879e191500c30d5"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="orderrequest.xml" hash="38c1a23aafe0ce557849d0de58d5fec8"/></dir><dir name="template"><dir name="orderrequest"><dir name="checkout"><dir name="multishipping"><file name="overview.phtml" hash="bd6cfe4fb9cafac8b34b7eafedf8b7c4"/></dir><dir name="onepage"><file name="orderrequest.phtml" hash="f37eee75e1c7e47239a659fc20ddc075"/><file name="review.phtml" hash="d88ab2da4a144e734e5d2a8ff79d53f9"/></dir></dir><dir name="email"><file name="info.phtml" hash="7ade9e9142b0383cc47ed1f7c710307a"/></dir><dir name="order"><file name="view.phtml" hash="54e142f07702dd90d87d8f8a63b498d7"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="orderrequest"><dir name="css"><file name="orderrequest.css" hash="4a597d7c279315b54c012ce40a24f857"/></dir><dir name="js"><file name="orderrequest.js" hash="3cb8bad416ffc6d93196228b81ae4e6a"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
