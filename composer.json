@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/orderrequest_module",
+    "name": "openmage-module-fostering\/orderrequest_module",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Customer Order Comment Management Extension will help you get your customers\u2019 comments\/views before they shop from your store, helping you know your customers closely",
     "authors": [
